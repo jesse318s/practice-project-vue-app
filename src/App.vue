@@ -1,17 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ClientDesigns
+    testingProps="this prop value is the testing image's alt value"
+  />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ClientDesigns from "./components/ClientDesigns.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    ClientDesigns,
+  },
+};
 </script>
 
 <style>
@@ -21,6 +22,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+.testingSectionStyle {
+  content: "Testing Section";
+  border-style: solid;
+  border-width: 2px;
+}
+.testingSectionStyle::before {
+  content: "Testing Section";
 }
 </style>
