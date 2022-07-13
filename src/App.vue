@@ -1,6 +1,6 @@
 <template>
   <ClientDesigns
-    testingProps="this prop value is the testing image's alt value"
+    testMsg="This prop value should be set as the testing image's alt value."
   />
 </template>
 
@@ -22,13 +22,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-.testingSectionStyle {
-  content: "Testing Section";
-  border-style: solid;
-  border-width: 2px;
-}
-.testingSectionStyle::before {
-  content: "Testing Section";
 }
 </style>

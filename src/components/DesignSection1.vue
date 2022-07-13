@@ -27,24 +27,17 @@ export default {
   height: 10px;
   background: linear-gradient(
     to top,
-    rgb(47, 0, 255) 0%,
-    rgb(0, 153, 255) 33%,
-    rgba(255, 255, 255, 1) 100%
+    rgb(0, 153, 255) 0%,
+    rgb(55, 0, 255) 33%,
+    rgb(0, 0, 0) 100%
   );
-  box-shadow: 1px 1px blue;
 
   @keyframes quantumEntangle {
-    25% {
-      transform: rotateY(180deg);
-    }
     50% {
-      transform: rotateX(360deg) rotateY(-180deg) translateX(-20px) scaleX(1);
-    }
-    75% {
-      transform: rotateY(180deg);
+      transform: rotateX(180deg);
     }
     100% {
-      transform: rotateX(360deg) rotateY(180deg) translateX(-20px) scaleX(1);
+      transform: rotateX(-180deg) translateX(-20px);
     }
   }
 }
