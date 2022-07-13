@@ -38,7 +38,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .section_divider {
   border-top: 2px solid;
   margin: 2px;
