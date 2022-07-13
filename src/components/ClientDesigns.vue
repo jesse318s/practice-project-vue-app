@@ -1,21 +1,22 @@
 <template>
-  <div class="testingSectionStyle">
-    <img
-      src="../assets/testingImg.png"
-      v-bind:alt="testingProps"
-      width="300"
-      height="300"
-    />
-  </div>
+  <TestDesignSection />
+
+  <h3>Entangle - Sass Animation</h3>
+  <DesignSection1 style="margin-top: 130px" />
 </template>
 
 <script>
+import TestDesignSection from "./TestDesignSection.vue";
+import DesignSection1 from "./DesignSection1.vue";
+
 export default {
   name: "ClientDesigns",
   props: {
     testingProps: String,
   },
+  components: {
+    TestDesignSection,
+    DesignSection1,
+  },
 };
 </script>
-
-<style scoped></style>
