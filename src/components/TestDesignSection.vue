@@ -24,8 +24,8 @@ export default {
       );
       const sectionContentAfter = sectionStylesAfter.content;
       console.assert(
-        sectionContentAfter === '"Scss is active."',
-        "Scss error."
+        sectionContentAfter === '"SCSS is active."',
+        "SCSS error."
       );
     },
   },
@@ -37,6 +37,6 @@ export default {
 
 <style scoped lang="scss">
 .test_section::after {
-  content: "Scss is active.";
+  content: "SCSS is active.";
 }
 </style>
