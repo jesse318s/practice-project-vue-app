@@ -20,6 +20,11 @@
     <DesignSection2 style="margin-top: 130px" />
 
     <div class="section_divider"></div>
+
+    <h3>Design Label</h3>
+    <DesignSection3 style="margin-top: 130px" />
+
+    <div class="section_divider"></div>
   </main>
 
   <footer>
@@ -31,6 +36,7 @@
 import TestDesignSection from "./TestDesignSection.vue";
 import DesignSection1 from "./DesignSection1.vue";
 import DesignSection2 from "./DesignSection2.vue";
+import DesignSection3 from "./DesignSection3.vue";
 
 export default {
   name: "ClientDesigns",
@@ -41,6 +47,7 @@ export default {
     TestDesignSection,
     DesignSection1,
     DesignSection2,
+    DesignSection3,
   },
 };
 </script>
