@@ -24,6 +24,6 @@ export default {
 .special_effect::after {
   content: "Design Content";
   position: relative;
-  bottom: 18px;
+  bottom: 16px;
 }
 </style>
