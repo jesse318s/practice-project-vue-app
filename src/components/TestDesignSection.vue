@@ -18,13 +18,16 @@ export default {
     sectionTest() {
       // select test section element by Vue reference
       const sectionElement = this.$refs.testSection;
+
       // get the SCSS that is after the test section element
       const sectionStylesAfter = window.getComputedStyle(
         sectionElement,
         "::after"
       );
+
       // access the content property of the retrieved style
       const sectionContentAfter = sectionStylesAfter.content;
+
       // test if the content property is the expected string
       console.assert(
         sectionContentAfter === '"SCSS is active."',
