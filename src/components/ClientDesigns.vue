@@ -1,4 +1,4 @@
-<!-- main component for design sections -->
+<!-- main component for displaying designs -->
 <template>
   <header>
     <h1>Client Designs</h1>
@@ -7,22 +7,22 @@
   <main>
     <div class="section_divider"></div>
 
-    <h3>Test Section</h3>
+    <h3>Test Design Section</h3>
     <TestDesignSection />
 
     <div class="section_divider"></div>
 
-    <h3>Example Section</h3>
+    <h3>Example Design Section</h3>
     <DesignSection1 style="margin-top: 130px" />
 
     <div class="section_divider"></div>
 
-    <h3>New Section</h3>
+    <h3>New Design Section</h3>
     <DesignSection2 style="margin-top: 130px" />
 
     <div class="section_divider"></div>
 
-    <h3>Section 3</h3>
+    <h3>Design Section 3</h3>
     <DesignSection3 style="margin-top: 130px" />
 
     <div class="section_divider"></div>
