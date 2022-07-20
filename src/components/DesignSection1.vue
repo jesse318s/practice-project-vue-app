@@ -18,7 +18,7 @@ export default {
 .special_effect {
   position: relative;
   bottom: 75px;
-  left: 170px;
+  left: 210px;
   transform: rotateX(-20deg) rotateY(20deg) translateX(200px) scaleX(2)
     scaleY(0.89);
   animation: quantumEntangle 750ms infinite linear;
