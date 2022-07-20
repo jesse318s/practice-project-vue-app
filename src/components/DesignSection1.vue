@@ -1,3 +1,4 @@
+<!-- example design section -->
 <template>
   <div class="special_effect_container">
     <div class="special_effect"></div>

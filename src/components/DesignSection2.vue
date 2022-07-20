@@ -1,3 +1,4 @@
+<!-- new design section -->
 <template>
   <div class="special_effect_container">
     <div className="special_effect"></div>
@@ -17,6 +18,7 @@ export default {
 }
 
 .special_effect {
+  position: relative;
   // new content goes here
 }
 

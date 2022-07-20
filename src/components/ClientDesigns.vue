@@ -1,3 +1,4 @@
+<!-- main component for design sections -->
 <template>
   <header>
     <h1>Client Designs</h1>
@@ -11,17 +12,17 @@
 
     <div class="section_divider"></div>
 
-    <h3>Entangle - Sass Animation (Example)</h3>
+    <h3>Example Section</h3>
     <DesignSection1 style="margin-top: 130px" />
 
     <div class="section_divider"></div>
 
-    <h3>Design Label</h3>
+    <h3>New Section</h3>
     <DesignSection2 style="margin-top: 130px" />
 
     <div class="section_divider"></div>
 
-    <h3>Design Label</h3>
+    <h3>Section 3</h3>
     <DesignSection3 style="margin-top: 130px" />
 
     <div class="section_divider"></div>
