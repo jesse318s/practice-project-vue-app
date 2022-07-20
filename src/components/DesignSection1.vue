@@ -15,6 +15,7 @@ export default {
   height: 0;
   overflow: visible;
 }
+
 .special_effect {
   position: relative;
   bottom: 75px;
