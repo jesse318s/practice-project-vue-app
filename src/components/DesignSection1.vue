@@ -74,14 +74,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.special_effect_container {
-  height: 0;
-  overflow: visible;
-}
-
 /* new SCSS content goes in this "special_effect" class -
 using the "position: relative;" property value in this class will hide this section's sample content -
-the container size is adjusted based on the "bottom" property value of this class */
+the container size is adjusted based on the "bottom" property value of this class -
+new SCSS content may also be created and used outside of this class within this style module */
 .special_effect {
   position: relative;
   bottom: 75px;
@@ -107,12 +103,5 @@ the container size is adjusted based on the "bottom" property value of this clas
       transform: rotateX(-180deg) translateX(-20px);
     }
   }
-}
-
-// sample content which is not visible when the "special_effect" class has the "position: relative;" property value
-.special_effect_sample::after {
-  content: "Design Content";
-  position: relative;
-  bottom: 16px;
 }
 </style>
