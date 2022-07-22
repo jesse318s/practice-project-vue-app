@@ -13,12 +13,12 @@
     <div class="section_divider"></div>
 
     <h3>Example Design Section</h3>
-    <DesignSection1 style="margin-top: 130px" />
+    <DesignSection1 />
 
     <div class="section_divider"></div>
 
     <h3>New Design Section</h3>
-    <DesignSection2 style="margin-top: 130px" />
+    <DesignSection2 />
 
     <div class="section_divider"></div>
   </main>
@@ -47,6 +47,16 @@ export default {
 </script>
 
 <style scoped>
+header,
+main,
+footer {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
 .section_divider {
   border-top: 2px solid;
   margin: 2px;
