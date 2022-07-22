@@ -50,8 +50,8 @@ export default {
       // access the bottom property of the retrieved style
       const effectBottom = effectStyles.bottom;
 
-      // set the new effect bottom to 150% of it's original value
-      const effectBottomNew = parseInt(effectBottom.replace(/\D/g, "")) * 1.5;
+      // set the new effect bottom to 110% of it's original value
+      const effectBottomNew = parseInt(effectBottom.replace(/\D/g, "")) * 1.1;
 
       // select special effect container element by Vue reference
       const containerElement = this.$refs.specialEffectContainer;
