@@ -23,7 +23,7 @@ export default {
       const effectPositon = effectStyles.position;
 
       // check if the positon property is relative, and hide sample content if so
-      if (effectPositon == "relative") {
+      if (effectPositon === "relative") {
         // select special effect sample element by Vue reference
         const effectSampleElement = this.$refs.specialEffectSample;
 
