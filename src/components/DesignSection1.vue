@@ -35,7 +35,7 @@ export default {
       } else {
         // displays a console message if the special effect is not being used correctly
         console.log(
-          'Please add the "position: relative;" property value to the "special_effect" class in order hide the sample content.'
+          'Please add the "position: relative;" property value to the "special_effect" class to hide the sample content.'
         );
       }
     },
