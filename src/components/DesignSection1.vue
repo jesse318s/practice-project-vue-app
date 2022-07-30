@@ -74,10 +74,16 @@ export default {
 </script>
 
 <style scoped lang="scss">
-/* new SCSS content goes in this "special_effect" class -
+/* ********************************
+
+
+new SCSS content goes in this "special_effect" class -
 using the "position: relative;" property value in this class will hide this section's sample content -
 the container size is adjusted based on the "bottom" property value of this class -
-new SCSS content may also be created and used outside of this class within this style module */
+new SCSS content may also be created and used outside of this class within this style module
+
+
+******************************** */
 .special_effect {
   position: relative;
   bottom: 75px;
