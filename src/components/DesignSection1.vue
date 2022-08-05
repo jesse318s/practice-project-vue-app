@@ -1,4 +1,4 @@
-<!-- example design section -->
+<!-- new design section -->
 <template>
   <div class="special_effect_container" ref="specialEffectContainer">
     <div class="special_effect" ref="specialEffect">
@@ -59,7 +59,7 @@ export default {
       // get the SCSS for the container element
       const containerStyle = containerElement.style;
 
-      // set the margin top property of the container style to the new bottom property of the effect
+      // set the margin top of the special effect container to the bottom position value of the special effect
       containerStyle.marginTop =
         effectBottomNew.toString() + effectBottom.replace(/[0-9]/g, "");
     },
@@ -85,29 +85,6 @@ new SCSS content may also be created and used outside of this class within this 
 
 ******************************** */
 .special_effect {
-  position: relative;
-  bottom: 75px;
-  left: 210px;
-  transform: rotateX(-20deg) rotateY(20deg) translateX(200px) scaleX(2)
-    scaleY(0.89);
-  animation: quantumEntangle 750ms infinite linear;
-  border-radius: 25px;
-  width: 10px;
-  height: 10px;
-  background: linear-gradient(
-    to top,
-    rgb(0, 153, 255) 0%,
-    rgb(55, 0, 255) 33%,
-    rgb(0, 0, 0) 100%
-  );
-
-  @keyframes quantumEntangle {
-    50% {
-      transform: rotateX(180deg);
-    }
-    100% {
-      transform: rotateX(-180deg) translateX(-20px);
-    }
-  }
+  position: static;
 }
 </style>

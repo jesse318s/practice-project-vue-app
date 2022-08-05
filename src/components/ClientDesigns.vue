@@ -1,4 +1,4 @@
-<!-- main component for displaying designs -->
+<!-- main component for displaying designs by section -->
 <template>
   <header>
     <h1>Client Designs</h1>
@@ -13,12 +13,12 @@
     <div class="section_divider"></div>
 
     <h3>Example Design Section</h3>
-    <DesignSection1 />
+    <ExampleDesignSection />
 
     <div class="section_divider"></div>
 
     <h3>New Design Section</h3>
-    <DesignSection2 />
+    <DesignSection1 />
 
     <div class="section_divider"></div>
   </main>
@@ -30,8 +30,8 @@
 
 <script>
 import TestDesignSection from "./TestDesignSection.vue";
+import ExampleDesignSection from "./ExampleDesignSection.vue";
 import DesignSection1 from "./DesignSection1.vue";
-import DesignSection2 from "./DesignSection2.vue";
 
 export default {
   name: "ClientDesigns",
@@ -40,8 +40,8 @@ export default {
   },
   components: {
     TestDesignSection,
+    ExampleDesignSection,
     DesignSection1,
-    DesignSection2,
   },
 };
 </script>

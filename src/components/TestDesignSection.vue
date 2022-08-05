@@ -1,6 +1,5 @@
-<!-- test design section -->
+<!-- component for testing Vue, HTML, and SCSS -->
 <template>
-  <!-- test component markup for testing Vue and SCSS -->
   <div class="test_section" ref="testSection">
     <!-- img alt is a prop value for Vue testing purposes, made accessible by v-bind -->
     <img src="../assets/testImg.png" :alt="testMsg" width="300" height="300" />
