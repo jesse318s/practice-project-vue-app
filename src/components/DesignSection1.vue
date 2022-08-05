@@ -1,4 +1,4 @@
-<!-- new design section -->
+<!-- new design section component -->
 <template>
   <div class="special_effect_container" ref="specialEffectContainer">
     <div class="special_effect" ref="specialEffect">

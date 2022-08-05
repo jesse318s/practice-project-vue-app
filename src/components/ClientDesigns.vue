@@ -1,4 +1,4 @@
-<!-- main component for displaying designs by section -->
+<!-- main component for displaying designs via section components -->
 <template>
   <header>
     <h1>Client Designs</h1>
