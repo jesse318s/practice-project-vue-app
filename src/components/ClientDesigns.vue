@@ -5,21 +5,16 @@
   </header>
 
   <main>
-    <div class="section_divider"></div>
-
     <h3>Test Design Section</h3>
     <TestDesignSection />
-
     <div class="section_divider"></div>
 
     <h3>Example Design Section</h3>
     <ExampleDesignSection />
-
     <div class="section_divider"></div>
 
     <h3>Design Section 1</h3>
     <DesignSection1 />
-
     <div class="section_divider"></div>
   </main>
 
