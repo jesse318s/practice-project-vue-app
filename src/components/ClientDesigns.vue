@@ -17,7 +17,7 @@
 
     <div class="section_divider"></div>
 
-    <h3>New Design Section</h3>
+    <h3>Design Section 1</h3>
     <DesignSection1 />
 
     <div class="section_divider"></div>
