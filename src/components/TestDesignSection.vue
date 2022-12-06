@@ -36,6 +36,7 @@ export default {
     },
   },
   mounted: function () {
+    "use strict";
     // component is tested after it is mounted
     this.sectionTest();
   },
