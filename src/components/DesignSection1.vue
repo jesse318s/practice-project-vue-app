@@ -65,7 +65,6 @@ export default {
     },
   },
   mounted: function () {
-    "use strict";
     // special effect correct usage is checked after component is mounted
     this.effectUseCheck();
     // special effect container margin is set after compontnent is mounted and special effect usage is checked
